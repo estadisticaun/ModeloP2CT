@@ -105,7 +105,7 @@ xaringanExtra::style_search(match_background = "pink")
 
 class: title-slide, center, middle, hide-count, hide-logo
 
-background-image: url("http://agenciadenoticias.unal.edu.co/fileadmin/Agencia_de_Noticias/Imagenes/2021/06-Junio/097/4.jpg")
+background-image: url("https://github.com/estadisticaun/ModeloP2CT/blob/main/imagenes/De_La_Paz.jpg")
 background-size: cover
 
 # .big-text.black[ <p style="color:#ffffff;">Modelo P2C-T</p>
@@ -124,11 +124,6 @@ background-size: cover
 
 
 ---
-class: center, middle
-
-# `r emo::ji("teacher")` <br> ¿Quién Será Su rofesor?<br>Su Tutor<br>Su "Compañero"
-
----
 class: middle, hide-logo
 
 .pull-left[
@@ -142,7 +137,7 @@ knitr::include_graphics("imagenes/Foto.jpg")
 ]
 
 .pull-right[
-# ¡Algunos datos de interés!
+# ¡Algunos datos de interés sobre el expositor!
 <br>
 <br>
 <br>
