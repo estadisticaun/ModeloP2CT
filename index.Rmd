@@ -1,0 +1,152 @@
+---
+title: "Modelo P2C-T"
+# subtitle: "<br/>Facultad de Enfermería"
+author: "<br/> Alberto Rodríguez R"
+institute: "<br/><br/>Dirección Nacional de Planeación y Estadística <br/> Universidad Nacional de Colombia"
+date: "Última Actualización: `r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    # css: ["include/webex.css", "barra.css"]
+    seal: false
+    nature:
+      highlightStyle: solarized-light
+      highlightLines: true
+      countIncrementalSlides: false
+      # ratio: "16:9"
+      ratio: 170:100
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>`
+  includes:
+    - include/webex.js
+  css:
+    - include/webex.css]
+
+---
+<style>
+/* Progress bar */
+/* https://github.com/yihui/xaringan/wiki/Progressbar */
+
+.remark-slide-number {
+  position: inherit;
+}
+
+.remark-slide-number .progress-bar-container {
+  position: absolute;
+  top: 0;
+  height: 6px;
+  display: block;
+  left: 0;
+  right: 0;
+}
+
+.remark-slide-number .progress-bar {
+  height: 100%;
+  background-color: red;
+}
+
+</style>
+
+---
+class: center, middle
+exclude: true
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(collapse = TRUE,
+                      fig.retina = 3,
+                      echo = FALSE,
+                      fig.align='center')
+library(ggplot2)
+library(downloadthis)
+library(webexercises)
+library(countdown)
+library(emo)
+library(icons)
+library(xaringanExtra)
+library(fontawesome)
+library(gapminder)
+library(UnalData)
+library(writexl)
+library(dplyr)
+library(tidyr)
+library(readxl)
+library(downloadthis)
+library(datasauRus)
+library(UnalR)
+library(janitor)
+library(skimr)
+library(DataExplorer)
+library(summarytools)
+library(moments)
+library(gridExtra)
+library(broom)
+library(sjPlot)
+library(flipbookr)
+xaringanExtra::use_tile_view()
+xaringanExtra::use_clipboard()
+xaringanExtra::use_webcam()
+xaringanExtra::use_search(show_icon = TRUE)
+# xaringanExtra::use_share_again()
+xaringanExtra::use_fit_screen()
+xaringanExtra::use_panelset()
+xaringanExtra::use_scribble()
+xaringanExtra::use_tachyons()
+xaringanExtra::use_extra_styles(hover_code_line = TRUE, mute_unhighlighted_code = TRUE)
+xaringanExtra::use_progress_bar(color = "#0051BA", location = "top", height = "10px")
+xaringanExtra::use_broadcast()
+xaringanExtra::style_search(match_background = "pink")
+```
+
+---
+
+class: title-slide, center, middle, hide-count, hide-logo
+
+background-image: url("http://agenciadenoticias.unal.edu.co/fileadmin/Agencia_de_Noticias/Imagenes/2021/06-Junio/097/4.jpg")
+background-size: cover
+
+# .big-text.black[ <p style="color:#ffffff;">Modelo P2C-T</p>
+]
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+.footnote[
+.white[Créditos de la Imagen: ][Agencia de Noticias UNAL](http://agenciadenoticias.unal.edu.co/fileadmin/Agencia_de_Noticias/Imagenes/2021/06-Junio/097/4.jpg)
+]
+
+
+---
+class: center, middle
+
+# `r emo::ji("teacher")` <br> ¿Quién Será Su rofesor?<br>Su Tutor<br>Su "Compañero"
+
+---
+class: middle, hide-logo
+
+.pull-left[
+```{r , echo=FALSE, out.width="65%", fig.align='left'}
+knitr::include_graphics("imagenes/Foto.jpg") 
+```
+
+* Alberto Rodríguez Rodríguez
+* Asesor - Dirección Nacional de Planeación y Estadística - [DNPE](http://planeacion.unal.edu.co/home/)<br>`r icons::fontawesome$brands$twitter` [@tipsder](https://twitter.com/tipsder)<br>`r icons::fontawesome$brands$github` [estadisticaun](https://github.com/estadisticaun)<br>`r icons::fontawesome$solid$envelope` [albrodriguezr@unal.edu.co](albrodriguezr@unal.edu.co)
+<br>`r icons::fontawesome$brands$chrome` [https://albertor.netlify.app/](https://albertor.netlify.app/)
+]
+
+.pull-right[
+# ¡Algunos datos de interés!
+<br>
+<br>
+<br>
+<br>
+# .big-text[Bienvenidos!`r emo::ji("blush")`]
+
+]
