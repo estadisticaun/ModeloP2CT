@@ -108,7 +108,7 @@ class: title-slide, center, middle, hide-count, hide-logo
 background-image: url("http://agenciadenoticias.unal.edu.co/fileadmin/Agencia_de_Noticias/Imagenes/2021/06-Junio/097/5.jpg")
 background-size: cover
 
-# .big-text.black[ <p style="color:EEEEF2;">Gestión y Producción de Estadísticas Oficiales <br>  Modelo P2C-T</p>
+# .big-text.black[<p style="color:EEEEF2;">Gestión y Producción de Estadísticas Oficiales <br>  Modelo P2C-T</p>
 ]
 
 <br>
@@ -193,7 +193,6 @@ El [Plan Estadístico](https://estadisticaun.github.io/PlanE/) de la Universidad
 
 ]
 
-
 ---
 class: center, middle
 
@@ -201,7 +200,6 @@ class: center, middle
 
 ---
 ### .center[¿Por qué son importantes los lineamientos conceptuales ? El Universo de lo datos.]
-
 
 ```{r, fig.align='center', out.width='50%', fig.show='hold', echo=FALSE}
 knitr::include_graphics('Imagenes/F_15.png')
@@ -215,6 +213,7 @@ knitr::include_graphics('Imagenes/F_15.png')
 ```{r, fig.align='center', out.width='88%', fig.show='hold', echo=FALSE}
 knitr::include_graphics('Imagenes/Medidas.png')
 ```
+
 ---
 class: middle, hide-logo
 
