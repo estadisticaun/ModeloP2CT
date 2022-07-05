@@ -105,10 +105,10 @@ xaringanExtra::style_search(match_background = "pink")
 
 class: title-slide, center, middle, hide-count, hide-logo
 
-background-image: url("https://github.com/estadisticaun/ModeloP2CT/blob/main/imagenes/De_La_Paz.jpg")
+background-image: url("http://agenciadenoticias.unal.edu.co/fileadmin/Agencia_de_Noticias/Imagenes/2021/06-Junio/097/5.jpg")
 background-size: cover
 
-# .big-text.black[ <p style="color:#ffffff;">Modelo P2C-T</p>
+# .big-text.black[ <p style="color:EEEEF2;">Gestión y Producción de Estadísticas Oficiales <br>  Modelo P2C-T</p>
 ]
 
 <br>
@@ -119,7 +119,7 @@ background-size: cover
 <br>
 
 .footnote[
-.white[Créditos de la Imagen: ][Agencia de Noticias UNAL](http://agenciadenoticias.unal.edu.co/fileadmin/Agencia_de_Noticias/Imagenes/2021/06-Junio/097/4.jpg)
+.white[Créditos de la Imagen: ][Agencia de Noticias UNAL](http://agenciadenoticias.unal.edu.co/fileadmin/Agencia_de_Noticias/Imagenes/2021/06-Junio/097/5.jpg)
 ]
 
 
