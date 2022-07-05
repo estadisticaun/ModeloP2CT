@@ -145,3 +145,28 @@ knitr::include_graphics("imagenes/Foto.jpg")
 # .big-text[Bienvenidos!`r emo::ji("blush")`]
 
 ]
+
+---
+class: center, middle
+
+# (P) <br> Planeación <br> `r emo::ji("teacher")`
+
+---
+class: center, middle
+
+# (C) <br> Conceptualización <br> `r emo::ji("teacher")`
+
+---
+class: center, middle
+
+# (P) <br> Producción <br> `r emo::ji("teacher")`
+
+---
+class: center, middle
+
+# (T) <br> Tecnología <br> `r emo::ji("teacher")`
+
+---
+class: center, middle
+
+# (C) <br> Cultura Estadística <br> `r emo::ji("teacher")`
