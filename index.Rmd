@@ -102,7 +102,6 @@ xaringanExtra::style_search(match_background = "pink")
 ```
 
 ---
-
 class: title-slide, center, middle, hide-count, hide-logo
 
 background-image: url("http://agenciadenoticias.unal.edu.co/fileadmin/Agencia_de_Noticias/Imagenes/2021/06-Junio/097/5.jpg")
@@ -122,6 +121,12 @@ background-size: cover
 .white[Créditos de la Imagen: ][Agencia de Noticias UNAL](http://agenciadenoticias.unal.edu.co/fileadmin/Agencia_de_Noticias/Imagenes/2021/06-Junio/097/5.jpg)
 ]
 
+---
+## .center[QR Presentación]
+
+```{r , echo=FALSE, out.width="45%", fig.align='center'}
+knitr::include_graphics("imagenes/QRPresentacion.png") 
+```
 
 ---
 class: middle, hide-logo
@@ -130,6 +135,9 @@ class: middle, hide-logo
 ```{r , echo=FALSE, out.width="65%", fig.align='left'}
 knitr::include_graphics("imagenes/Foto.jpg") 
 ```
+
+***Estadístico UNAL***<br>
+***Especialista Diseño y Desarrollo Bases de datos***<br>
 
 * Alberto Rodríguez Rodríguez
 * Asesor - Dirección Nacional de Planeación y Estadística - [DNPE](http://planeacion.unal.edu.co/home/)<br>`r icons::fontawesome$brands$twitter` [@tipsder](https://twitter.com/tipsder)<br>`r icons::fontawesome$brands$github` [estadisticaun](https://github.com/estadisticaun)<br>`r icons::fontawesome$solid$envelope` [albrodriguezr@unal.edu.co](albrodriguezr@unal.edu.co)
@@ -158,9 +166,30 @@ knitr::include_graphics("imagenes/ModeloP2CT.png")
 ```
 
 ---
+exclude: true
 class: center, middle
 
 # <font color="red">(P)</font><br> Planeación <br> `r emo::ji("teacher")`
+
+---
+class: title-slide, center, middle, hide-count, hide-logo
+
+background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Campus_La_Paz_Biblioteca_Foto_Angela_Alvarez.jpg/1024px-Campus_La_Paz_Biblioteca_Foto_Angela_Alvarez.jpg")
+background-size: cover
+
+# .big-text.black[<font color="red">(P)</font><br> Planeación <br>
+]
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+.footnote[
+.white[Sede La Paz Unal - Créditos de la Imagen: ][Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Campus_La_Paz_Biblioteca_Foto_Angela_Alvarez.jpg/1024px-Campus_La_Paz_Biblioteca_Foto_Angela_Alvarez.jpg)
+]
 
 
 ---
@@ -194,9 +223,31 @@ El [Plan Estadístico](https://estadisticaun.github.io/PlanE/) de la Universidad
 ]
 
 ---
+exclude: true
 class: center, middle
 
 # <font color="green">(C)</font><br> Conceptualización <br> `r emo::ji("teacher")`
+
+---
+class: title-slide, center, middle, hide-count, hide-logo
+
+background-image: url("http://egresados.manizales.unal.edu.co/fileadmin/user_upload/laboratorioQuimica.jpg")
+background-size: cover
+
+# .big-text.white[<font color="green">(C)</font><br> Conceptualización <br>]
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+.footnote[
+.white[Sede Manizales UNAL - Créditos de la Imagen: ][Sede Manizales](http://egresados.manizales.unal.edu.co/fileadmin/user_upload/laboratorioQuimica.jpg)
+]
+
+
 
 ---
 ### .center[¿Por qué son importantes los lineamientos conceptuales ? El Universo de lo datos.]
@@ -205,7 +256,7 @@ class: center, middle
 knitr::include_graphics('imagenes/F_15.png')
 ```
 
-<font size=2><b>Disponible en: </b><a href="https://raw.githubusercontent.com/estadisticaun/L_Conceptual/master/imagenes/F_15.png?token=AHYPBYXH34UNHZARFJBRGH3AXYMUU">Capítulo 3. Gestión de la Información en las Universidades.</a></font>
+<font size=2><b>Disponible en: </b><a href="https://estadisticaun.github.io/L_Conceptual/imagenes/F_15.png">Capítulo 3. Gestión de la Información en las Universidades.</a></font>
 
 ---
 ## .center[Escenario Conceptual: estadísticas e indicadores]
@@ -246,8 +297,31 @@ Las **estadísticas oficiales** son **cifras descriptivas** de interés social e
 
 ---
 class: center, middle
+exclude: true
 
 #<font color="red">(P)</font><br> Producción <br> `r emo::ji("teacher")`
+
+
+---
+class: title-slide, center, middle, hide-count, hide-logo
+
+background-image: url("https://medellin.unal.edu.co/images/2021/09/integracion_misional.jpg")
+background-size: cover
+
+# .big-text.white[<font color="red">(P)</font><br> Producción <br>]
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+.footnote[
+.white[Sede Medellín UNAL - Créditos de la Imagen: ][Sede Medellín](https://medellin.unal.edu.co/images/2021/09/integracion_misional.jpg)
+]
+
+
 
 ---
 ## .center[Producción de Estadísticas - Ciclo de Vida del Dato]
@@ -270,9 +344,30 @@ knitr::include_graphics("imagenes/QREstadisticas.png")
 <font size=2><b>Disponible en: </b><a href="http://estadisticas.unal.edu.co/">http://estadisticas.unal.edu.co/</a></font>
 
 ---
+exclude: true
 class: center, middle
 
 # <font color="blue">(T)</font> <br> Tecnología <br> `r emo::ji("teacher")`
+
+---
+class: title-slide, center, middle, hide-count, hide-logo
+
+background-image: url("http://agenciadenoticias.unal.edu.co/fileadmin/Agencia_de_Noticias/Imagenes/2021/11-Noviembre/617/AgenciaUNAL-01.jpg")
+background-size: cover
+
+# .big-text.white[<font color="blue">(T)</font> <br> Tecnología <br>]
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+.footnote[
+.white[Sede Palmira UNAL - Créditos de la Imagen: ][Agencia de Noticias UNAL](http://agenciadenoticias.unal.edu.co/fileadmin/Agencia_de_Noticias/Imagenes/2021/11-Noviembre/617/AgenciaUNAL-01.jpg)
+]
+
 
 ---
 ## .center[Herramientas tecnológicas para la gestión de datos]
@@ -299,6 +394,27 @@ knitr::include_graphics("imagenes/Herramientas_3.png")
 
 
 ---
+class: title-slide, center, middle, hide-count, hide-logo
+
+background-image: url("http://agenciadenoticias.unal.edu.co/fileadmin/Agencia_de_Noticias/Imagenes/2021/12-Diciembre/736/AgenciaUNAL-20211201-01.jpg")
+background-size: cover
+
+
+# .big-text.white[<font color="green">(C)</font><br> Cultura Estadística <br>]
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+.footnote[
+.white[Sede Tumaco UNAL - Créditos de la Imagen: ][Agencia de Noticias UNAL](http://agenciadenoticias.unal.edu.co/fileadmin/Agencia_de_Noticias/Imagenes/2021/12-Diciembre/736/AgenciaUNAL-20211201-01.jpg)
+]
+
+---
+exclude: true
 class: center, middle
 
 # <font color="green">(C)</font><br> Cultura Estadística <br> `r emo::ji("teacher")`
@@ -344,9 +460,37 @@ Uno de los aspectos poco trabajados en la gestión contemporánea de datos, pero
 ]
 
 ---
+exclude: true
 class: center, middle
 
 # Soportes del Modelo <font color="red">P</font>2<font color="green">C</font>-<font color="blue">T</font> <br> `r emo::ji("teacher")`
+
+---
+class: title-slide, center, middle, hide-count, hide-logo
+
+background-image: url("http://agenciadenoticias.unal.edu.co/fileadmin/_processed_/1/6/csm_AgenciaUNAL-01_989b932da7.jpg")
+background-size: cover
+
+
+# .big-text.pink[Soportes del Modelo <font color="red">P</font>2<font color="green">C</font>-<font color="blue">T</font> <br>]
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+.footnote[
+.white[Sede Bogotá UNAL - Créditos de la Imagen: ][Agencia de Noticias UNAL](http://agenciadenoticias.unal.edu.co/fileadmin/_processed_/1/6/csm_AgenciaUNAL-01_989b932da7.jpg)
+]
+
+
+
 
 ---
 ## .center[Soportes del Modelo <font color="red">P</font>2<font color="green">C</font>-<font color="blue">T</font>]
