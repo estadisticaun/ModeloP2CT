@@ -223,12 +223,6 @@ El [Plan Estadístico](https://estadisticaun.github.io/PlanE/) de la Universidad
 ]
 
 ---
-exclude: true
-class: center, middle
-
-# <font color="green">(C)</font><br> Conceptualización <br> `r emo::ji("teacher")`
-
----
 class: title-slide, center, middle, hide-count, hide-logo
 
 background-image: url("http://egresados.manizales.unal.edu.co/fileadmin/user_upload/laboratorioQuimica.jpg")
@@ -247,7 +241,11 @@ background-size: cover
 .white[Sede Manizales UNAL - Créditos de la Imagen: ][Sede Manizales](http://egresados.manizales.unal.edu.co/fileadmin/user_upload/laboratorioQuimica.jpg)
 ]
 
+---
+exclude: true
+class: center, middle
 
+# <font color="green">(C)</font><br> Conceptualización <br> `r emo::ji("teacher")`
 
 ---
 ### .center[¿Por qué son importantes los lineamientos conceptuales ? El Universo de lo datos.]
