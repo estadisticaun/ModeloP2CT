@@ -225,10 +225,10 @@ El [Plan Estadístico](https://estadisticaun.github.io/PlanE/) de la Universidad
 ---
 class: title-slide, center, middle, hide-count, hide-logo
 
-background-image: url("http://egresados.manizales.unal.edu.co/fileadmin/user_upload/laboratorioQuimica.jpg")
+background-image: url("https://pbs.twimg.com/media/Edexu-CWAAMmv-Y.jpg")
 background-size: cover
 
-# .big-text.white[<font color="green">(C)</font><br> Conceptualización <br>]
+# .big-text.red[<font color="green">(C)</font><br> Conceptualización <br>]
 
 <br>
 <br>
@@ -238,7 +238,7 @@ background-size: cover
 <br>
 
 .footnote[
-.white[Sede Manizales UNAL - Créditos de la Imagen: ][Sede Manizales](http://egresados.manizales.unal.edu.co/fileadmin/user_upload/laboratorioQuimica.jpg)
+.white[Campus la Nubia - Sede Manizales UNAL - Créditos de la Imagen: ][Sede Manizales](https://pbs.twimg.com/media/Edexu-CWAAMmv-Y.jpg)
 ]
 
 ---
